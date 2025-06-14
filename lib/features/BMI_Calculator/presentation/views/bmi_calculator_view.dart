@@ -1,5 +1,6 @@
-import 'package:bmi_calculator_app/features/presentation/BMI_Calculator/widgets/bmi_calculator_body.dart';
+import 'package:bmi_calculator_app/features/BMI_Calculator/presentation/widgets/bmi_calculator_body.dart';
 import 'package:flutter/material.dart';
+
 
 class BmiCalculatorView extends StatelessWidget {
   const BmiCalculatorView({super.key});
@@ -12,7 +13,7 @@ class BmiCalculatorView extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Color(0xFF0A0E20),
         title: Text(
-          'BMI Calculator',
+          'BMI CALCULATOR',
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,

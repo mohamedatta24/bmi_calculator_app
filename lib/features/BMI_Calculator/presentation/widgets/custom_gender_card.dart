@@ -34,7 +34,7 @@ class CustomGenderCard extends StatelessWidget {
                 text,
                 style: TextStyle(
                   fontSize: 24,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w900,
                   color: Colors.white,
                 ),
               ),
